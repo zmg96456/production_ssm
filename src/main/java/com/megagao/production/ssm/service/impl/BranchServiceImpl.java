@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.megagao.production.ssm.domain.Branch;
-import com.megagao.production.ssm.domain.Department;
 import com.megagao.production.ssm.domain.customize.CustomResult;
 import com.megagao.production.ssm.domain.customize.EUDataGridResult;
 import com.megagao.production.ssm.mapper.BranchMapper;
@@ -97,7 +96,7 @@ public class BranchServiceImpl implements BranchService{
 		if(i>0){
 			return CustomResult.ok();
 		}else{
-			return CustomResult.build(101, "新增部门失败");
+			return CustomResult.build(101, "新增机构失败");
 		}
 	}
 
@@ -114,7 +113,7 @@ public class BranchServiceImpl implements BranchService{
 		if (i>0) {
 			return CustomResult.ok();
 		}else {
-			return CustomResult.build(101, "修改部门信息失败");
+			return CustomResult.build(101, "修改机构信息失败");
 		}
 	}
 

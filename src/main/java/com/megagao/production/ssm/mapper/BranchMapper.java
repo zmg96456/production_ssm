@@ -3,7 +3,6 @@ package com.megagao.production.ssm.mapper;
 import java.util.List;
 
 import com.megagao.production.ssm.domain.Branch;
-import com.megagao.production.ssm.domain.Department;
 
 public interface BranchMapper {
 	List<Branch> find();

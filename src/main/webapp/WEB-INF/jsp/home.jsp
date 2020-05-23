@@ -157,14 +157,19 @@
 			</ul>
 		</div>
 		
-		<div title="机构管理" data-options="selected:true" style="padding:10px">
+		<div title="新增管理" data-options="selected:true" style="padding:10px">
 			<ul id="branchMonitor" class="easyui-tree"
 				data-options="animate:true,lines:true">
-				<li><span>机构监控</span>
+				<li><span>新增监控</span>
 					<ul>
 						<li id=63 data-options="attributes:{'url':'branch/find'}">机构管理</li>
 					</ul>
-					
+					<ul>
+						<li id=64 data-options="attributes:{'url':'train/find'}">培训管理</li>
+					</ul>
+					<ul>
+						<li id=65 data-options="attributes:{'url':'assessment/find'}">培训考核管理</li>
+					</ul>
 				</li>
 			</ul>
 		</div>
@@ -203,7 +208,7 @@
 						["物料监控","物料信息","物料收入","物料消耗"],
 						["质量监控","不合格品管理","成品计量质检","成品计数质检","工序计量质检","工序计数质检"],
 						["人员监控","部门管理","员工管理"]
-						["机构管理"]
+						["机构管理","培训管理","培训考核管理"]
 					  ];
 					  
 		function isContains(str, substr) {

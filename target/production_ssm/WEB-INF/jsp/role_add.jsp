@@ -157,11 +157,18 @@
 			<label><input name="permissionOption2" type="checkbox" value="213" />角色删除 </label> 
 			<br><br>
 				<span style="font-weight: bold;">机构管理：</span>
-		<label><input name="permissionOption2" type="checkbox" value="281" />角色新增 </label> 
-		<label><input name="permissionOption2" type="checkbox" value="282" />角色修改 </label> 
-		<label><input name="permissionOption2" type="checkbox" value="283" />角色删除 </label> 
+		<label><input name="permissionOption2" type="checkbox" value="281" />机构新增 </label> 
+		<label><input name="permissionOption2" type="checkbox" value="282" />机构修改 </label> 
+		<label><input name="permissionOption2" type="checkbox" value="283" />机构删除 </label> 
 		<br><br>
-			
+			<span style="font-weight: bold;">培训管理：</span>
+		<label><input name="permissionOption2" type="checkbox" value="291" />培训新增 </label> 
+		<label><input name="permissionOption2" type="checkbox" value="292" />培训删除 </label> 
+		<br><br>
+			<span style="font-weight: bold;">考核管理：</span>
+		<label><input name="permissionOption2" type="checkbox" value="294" />考核新增 </label> 
+		<label><input name="permissionOption2" type="checkbox" value="295" />考核删除 </label> 
+		<br><br>
 			<br>
 	</form>
 	<br><br>

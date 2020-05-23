@@ -1,0 +1,10 @@
+com\megagao\production\ssm\service\impl\AssessmentServiceImpl.class
+com\megagao\production\ssm\controller\TrainController.class
+com\megagao\production\ssm\service\impl\TrainServiceImpl.class
+com\megagao\production\ssm\mapper\AssessmentMapper.class
+com\megagao\production\ssm\domain\Train.class
+com\megagao\production\ssm\domain\Assessment.class
+com\megagao\production\ssm\controller\AssessmentController.class
+com\megagao\production\ssm\service\TrainService.class
+com\megagao\production\ssm\service\AssessmentService.class
+com\megagao\production\ssm\mapper\TrainMapper.class

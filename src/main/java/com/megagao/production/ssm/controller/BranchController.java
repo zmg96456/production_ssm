@@ -87,7 +87,7 @@ public class BranchController {
 			return CustomResult.build(100, fieldError.getDefaultMessage());
 		}
 		if(branchService.get(branch.getId()) != null){
-			result = new CustomResult(0, "该部门编号已经存在，请更换部门编号！", null);
+			result = new CustomResult(0, "该机构编号已经存在，请更换机构编号！", null);
 		}else{
 			result = branchService.insert(branch);
 		}
